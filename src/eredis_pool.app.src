@@ -8,17 +8,11 @@
                   stdlib
                  ]},
   {mod, { eredis_pool_app, []}},
-  {env, []}
-
 %% sample configuration.
 %%
 {env, [
-          {pools, [
-                   {dbsrv, [
-                              {size, 10},
-                              {max_overflow, 30}
-                             ]}
-	          ]}
+          {pools, []},
+         {global_or_local, []}
         ]}
 
 

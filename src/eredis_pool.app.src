@@ -12,14 +12,14 @@
 
 %% sample configuration.
 %%
-%%  {env, [
-%%          {pools, [
-%%                   {dbsrv, [
-%%                              {size, 10},
-%%                              {max_overflow, 30}
-%%                             ]}
-%%	          ]}
-%%        ]}
-%%
+{env, [
+          {pools, [
+                   {dbsrv, [
+                              {size, 10},
+                              {max_overflow, 30}
+                             ]}
+	          ]}
+        ]}
+
 
 ]}.
